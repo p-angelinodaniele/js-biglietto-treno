@@ -16,6 +16,8 @@ if (età < 18){
 
     sconto = (totale / 100)*40
     totale = totale - sconto;
+} else {
+    alert("Mi dispiace non hai inserito correttamente i dati")
 }
 
 
