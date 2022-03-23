@@ -28,9 +28,9 @@ console.log(resto);
 if(resto==0 && scelta=="Pari"){
     alert("Hai vinto");
 }else if (resto !=0 && scelta =="Dispari"){
-    alert("Hai vinto")
+    alert("Hai vinto");
 }else {
-    alert("Hai perso")
+    alert("Hai perso");
 }
 
 

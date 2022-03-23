@@ -4,21 +4,20 @@ let prezzo;
 
 
 parseFloat(numeroChilometri);
-totale = numeroChilometri * 0.21;
+let totale = numeroChilometri * 0.21;
 
 if (età < 18){
     let sconto;
-    sconto = (totale / 100)*20
+    sconto = (totale / 100)*20;
     totale = totale - sconto;
 
     
 }else if(età > 64){
 
-    sconto = (totale / 100)*40
+    sconto = (totale / 100)*40;
     totale = totale - sconto;
-} else {
-    alert("Mi dispiace non hai inserito correttamente i dati")
-}
+} 
+
 
 
 
