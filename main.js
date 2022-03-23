@@ -21,6 +21,6 @@ if (età < 18){
 
 
 
-totale=totale.toFixed(2);
+totale=totale.toFixed(2);   
 
 document.getElementById("prezzo").innerHTML = totale;

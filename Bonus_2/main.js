@@ -4,7 +4,7 @@
 
 
 
-let scelta = prompt ("Pari o Dispari");
+let scelta = prompt ("pari o dispari");
 let numero = prompt("Inserisci un numero da 1 a 9");
 
 
@@ -14,21 +14,23 @@ let random = Math.floor(Math.random() * 10);
 if (random == 0){
     random = random + 1;
 }
-console.log(random);
+console.log("Il numero random " + random);
 
 
 let totale = random + numero;
-console.log(totale);
+console.log("La somma è " + totale);
 
 var resto = totale % 2;
-console.log(resto);
+console.log("Il resto è " + resto);
 
 
 
-if(resto==0 && scelta=="Pari"){
+if(resto==0 && scelta=="pari"){
     alert("Hai vinto");
-}else if (resto !=0 && scelta =="Dispari"){
+}else if (resto !=0 && scelta =="dispari"){
     alert("Hai vinto");
+}else if(numero > 9 && numero < 1){
+    alert("Mi dispiace hai inserito un numero più grande di 9")
 }else {
     alert("Hai perso");
 }
